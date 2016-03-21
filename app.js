@@ -32,7 +32,8 @@ db.once('open', function () {
 
 
 const server = new Hapi.Server();
-server.connection({ port: 3000 });
+
+server.connection({ port: (process.env.PORT || 5000) });
 
 server.route({
     method: 'GET',
