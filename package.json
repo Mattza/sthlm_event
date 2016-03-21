@@ -1,0 +1,23 @@
+{
+  "name": "sthlm_event",
+  "version": "0.0.1",
+  "description": "Eventcrawler and presenter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mattza/sthlm_event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mattza/sthlm_event/issues"
+  },
+  "homepage": "https://github.com/Mattza/sthlm_event#readme",
+  "dependencies": {
+    "hapi": "^13.2.1",
+    "mongoose": "^4.4.8"
+  }
+}
